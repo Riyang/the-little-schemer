@@ -1,4 +1,4 @@
-;;The Commandments
+; The Commandments
 ;
 ; The First Commandment
 ; (preliminary)
