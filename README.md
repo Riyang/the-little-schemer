@@ -9,6 +9,7 @@ It also means you should pay your best time and energy to research it, to figure
   
 I've understood 95 percents of *The Little Schemer*,  
 but I have no time to organize my notes about it. Well, I'll try to spare some time to do it.  
-The book is charming, with little words, little pictures of little elephants. Enjoy it! :)  
-
+The book is charming, really charming, with little words, little pictures of little elephants.  
+Enjoy it! :)  
+  
 To be continue...
