@@ -16,6 +16,7 @@
 (atom? ':)
 (atom? '^_^)
 (atom? '$_$)
+(atom? '?_?)
 (newline)
 
 (atom? '(atom))
