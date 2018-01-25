@@ -13,10 +13,14 @@
 (atom? '1492)
 (atom? 'u)
 (atom? '*abc$)
+(atom? ':)
+(atom? '^_^)
+(atom? '$_$)
 (newline)
 
 (atom? '(atom))
 (atom? '())
+(atom? '(vivi))
 (newline)
 
 (define test-list?
@@ -27,7 +31,9 @@
 (test-list? '())
 (test-list? '(atom))
 ; (test-list? 'atom)    ; wrong! cdr is expected an pair or a list.
+; So, test-list? is not the procedure list?
 
+; This is the real list? :
 ; (define list?
 ;   (lambda (x)
 ;     (cond
@@ -55,6 +61,8 @@
 
 (S-expression? 'xyz)
 (S-expression? '(x y z))
+(S-expression? 'vivi)
+(S-expression? '(are you okay?))
 (newline)
 
 (define how-many-S-expressions?
@@ -70,6 +78,11 @@
 (how-many-S-expressions? '(how are you doing so far))
 (list? '(((how) are) ((you) (doing so)) far))
 (how-many-S-expressions? '(((how) are) ((you) (doing so)) far))
+(newline)
+(S-expression? '(why do you not like me))
+(how-many-S-expressions? '(why do you not like me))
+(list? '(((why) do) ((you) (not like)) me))
+(how-many-S-expressions? '(((why) do) ((you) (not like)) me))
 (newline)
 
 (define oneline-print
@@ -88,6 +101,7 @@
                (display-sub-S-expressions (cdr x))))))))
 (display-sub-S-expressions '(a b c))
 (display-sub-S-expressions '(((how) are) ((you) (doing so)) far))
+(display-sub-S-expressions '(vi vi jiang))
 (newline)
 
 (list? '())
