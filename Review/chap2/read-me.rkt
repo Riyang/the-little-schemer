@@ -1,6 +1,6 @@
 ; ----------- Chapter 2 Do It, Do It Again, and Again, and Again ... -----------
 ; 
-; There are three parts of Toys.
+; There are three parts of chapter 2.
 ;
 ; Part 1:
 ;   (lat? l):
